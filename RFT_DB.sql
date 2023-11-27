@@ -1,2 +1,2 @@
 use felhasznalok;
-select * from felhasznalok; felhasznalok
+select * from felhasznalok; 
