@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.loginsetup.BejelentkezesCrl"
+      >
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E3E4FA;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@computer.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="5.0" layoutY="149.0" prefHeight="38.0" prefWidth="200.0" text="Felhasználónév " textAlignment="CENTER" textFill="#797a9c">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+             <Label layoutX="10.0" layoutY="200.0" prefHeight="38.0" prefWidth="200.0" text="Jelszó " textAlignment="CENTER" textFill="#797a9c">
+                 <font>
+                     <Font name="Arial Black" size="18.0" />
+                 </font>
+             </Label>
+            <TextField fx:id="tf_felhasznalonev" alignment="CENTER" layoutX="172.0" layoutY="160.0" prefHeight="26.0" prefWidth="217.0" promptText="Felhasználónév">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_jelszo" alignment="CENTER" layoutX="171.0" layoutY="206.0" prefHeight="26.0" prefWidth="218.0" promptText="Jelszó">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="bt_bejelentkezes" layoutX="108.0" layoutY="300.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="128.0" style="-fx-background-color: #E3E4FA;" text="Bejelentkezés " textFill="#47485b">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="24.0" layoutY="349.0" text="Nem rendelkezik fiókkal? ">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="bt_regisztracio" layoutX="184.0" layoutY="345.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-cursor: hand;" text="Regisztráció" textAlignment="CENTER" textFill="#5a64ef" underline="true">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font>
+            </Button>
+         </children>
+
+
+
+      </AnchorPane>
+
+
+   </children>
+</HBox>
