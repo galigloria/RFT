@@ -23,13 +23,14 @@ public void Inicializalas(URL location, ResourceBundle resources)
  button_kijelentkezes.setOnAction(new EventHandler<ActionEvent>() {
      @Override
      public void handle(ActionEvent actionEvent) {
-
+      DB.kepernyoCsere(actionEvent,"com.example.loginsetup.fxml",null,null);
      }
  });
+
 }
 public void felhasznaloInformacioBeallitas(String felhasznalonev,String kedvencCsatorna)
 {
-    lbl_udvozles.setText("Üdvözlöm"+felhasznalonev+"!");
-    lbl_felirat.setText("Az Ön kedvenc YouTube csatornája"+kedvencCsatorna+"!");
+    lbl_udvozles.setText("ÃœdvÃ¶zlÃ¶m"+felhasznalonev+"!");
+    lbl_felirat.setText("Az Ã–n kedvenc YouTube csatornÃ¡ja"+kedvencCsatorna+"!");
 }
 }
